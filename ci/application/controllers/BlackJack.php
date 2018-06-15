@@ -6,6 +6,7 @@ class BlackJack extends CI_Controller {
   private $deck_array   = array();
   private $player_hands = array();
   private $dealer_hands = array();
+  private $hoge;
 
   function __construct(){
     parent::__construct();
